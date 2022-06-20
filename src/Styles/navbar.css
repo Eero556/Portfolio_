@@ -12,6 +12,11 @@
   align-items: center;
   justify-content: flex-end;
   color: white;
+  margin-right: 4em;
+}
+
+.links a:hover {
+  opacity: 0.2;
 }
 
 .navbar a {
@@ -22,11 +27,11 @@
 }
 
 .toggleButton {
-  width: 100%;
+  width: 10%;
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  
 }
 
 .toggleButton svg {
@@ -39,10 +44,17 @@
   border: none;
   color: white;
   cursor: pointer;
+  display: flex;
 }
 
 #open {
-  height: 70vh;
+  height: 30em;
+  
+}
+
+
+.toggleButton .cross{
+  display: none;
 }
 
 #open .links {
@@ -54,18 +66,34 @@
 #open a {
   width: 100%;
   text-align: center;
+  
 }
 
+
 .navbar-name {
-  color: aqua;
+  height: 40px;
   width: 100%;
   display: flex;
   padding-left: 1em;
   padding-top: 0.5em;
 }
+
+.navbar-name:hover{
+  opacity: 0.2;
+}
 @media only screen and (max-width: 900px) {
   .navbar a {
     width: 70px;
+  }
+  .navbar-name{
+    display: none;
+  }
+  .links  {
+    justify-content: center;
+    
+  }
+  .links a{
+    margin: 1em;
   }
 }
 
@@ -77,6 +105,16 @@
   #close a {
     display: none;
   }
+  .navbar a{
+    border-bottom: 1px solid red;
+  }
+  #open .toggleButton .hamburger{
+    display: none;
+  }
+  #open .toggleButton .cross{
+    display: block;
+  }
+  
 }
 
 @media only screen and (min-width: 600px) {
@@ -89,10 +127,13 @@
   }
 
   #open {
-    height: 100px;
+    height: 200px;
   }
 
   #open .links {
     flex-direction: row;
+    
   }
+  
+  
 }

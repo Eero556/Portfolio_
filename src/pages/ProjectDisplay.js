@@ -3,8 +3,10 @@ import {useParams} from "react-router-dom"
 import {projectList} from "../helpers/ProjectList"
 import GitHub from '@material-ui/icons/GitHub';
 import "../Styles/ProjectDisplay.css"
+import {Link} from "react-router-dom"
 
 function ProjectDisplay() {
+    // useParams to get unique id
     const {id} = useParams();
     const project = projectList[id]
   return (
@@ -13,6 +15,7 @@ function ProjectDisplay() {
         <img src={project.image} alt="kuva"/>
         <p>{project.skills}</p>
         <a href='https://github.com/Eero556'><GitHub/></a>
+        <Link className='link' to={"/projects"}>Back to projects</Link>
     </div>
   )
 }
