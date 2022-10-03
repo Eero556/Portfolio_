@@ -8,13 +8,18 @@ import {Link} from "react-router-dom"
 function ProjectDisplay() {
     // useParams to get unique id
     const {id} = useParams();
+    console.log(id)
     const project = projectList[id]
   return (
     <div className='project'>
         <h1>{project.name}</h1>
         <img src={project.image} alt="kuva"/>
+        <label>Used techologies</label>
         <p>{project.skills}</p>
-        <a href='https://github.com/Eero556'><GitHub/></a>
+        <div>
+          <a href={project.link}><GitHub/><label>More at github</label></a>
+        </div>
+        
         <Link className='link' to={"/projects"}>Back to projects</Link>
     </div>
   )

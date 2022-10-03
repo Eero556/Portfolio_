@@ -3,7 +3,7 @@
 export const skillList = [
     {
         Title: "Front-End",
-        Desc: "ReactJS, Javascript, HTML, CSS"
+        Desc: "ReactJS, Javascript, React native, HTML, CSS, Bootstrap"
         
     },
     {
@@ -13,10 +13,10 @@ export const skillList = [
     },
     {
         Title: "Languages",
-        Desc: "Javascript, Python"
+        Desc: "Javascript, Python, C#(basics)"
     },
     {
         Title: "Other",
-        Desc: "Git, Bash/Powershell, NPM, Visual studio code, Github, Gitlab"
+        Desc: "Git, Bash/Powershell, NPM, Visual studio code, Visual studio, Github, Gitlab"
     }
 ]

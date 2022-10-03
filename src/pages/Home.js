@@ -5,43 +5,44 @@ import Github from "@material-ui/icons/GitHub"
 import Instagram from "@material-ui/icons/Instagram"
 import "../Styles/Home.css"
 import Picture from "../Assets/Jeero.jpg"
-import {skillList} from "../helpers/Skills"
+import { skillList } from "../helpers/Skills"
 
 
 
 
 function Home() {
 
- 
+
   return (
     <div className='home'>
       <div className='about'>
-        <img src={Picture} alt="Eero"/>
+        <img src={Picture} alt="Eero" />
         <h3>Hi, My Name is Eero Kantonen</h3>
-        <p>Second-year student at Jamk university of applied sciences</p>
+        <p>Third-year student at Jamk university of applied sciences</p>
         
+
         <div className='prompt'>
           <p>A Software Developer</p>
-          <a href='https://www.instagram.com/jeeroooooo/'><Instagram/></a>
-          <a href='https://www.linkedin.com/in/eero-kantonen-7389a3209/'><LinkedIn/></a>
-          <a href='https://github.com/Eero556'><Github/></a>
-          <a href = "mailto: eero.kantonen@elisanet.fi"><Email/></a>
-          
+          <a href='https://www.instagram.com/jeeroooooo/'><Instagram /></a>
+          <a href='https://www.linkedin.com/in/eero-kantonen-7389a3209/'><LinkedIn /></a>
+          <a href='https://github.com/Eero556'><Github /></a>
+          <a href="mailto: eero.kantonen@elisanet.fi"><Email /></a>
+
         </div>
       </div>
-      <div className='skills' key={2} >
+      <div className='skills'>
         <h1>Skills</h1>
-        {skillList.map((skill) =>{
-          return <div>
-            <li key={2}>
+        {skillList.map((skill, index) => {
+          return <div key={index}>
+            <li>
               <h2 className='skill-title'>{skill.Title}</h2>
               <span className='skill-desc'>{skill.Desc}</span>
             </li>
           </div>
         })}
-        
+
       </div>
-      
+
     </div>
   )
 }

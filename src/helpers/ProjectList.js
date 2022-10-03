@@ -6,11 +6,19 @@ export const projectList = [
     {
         name: "Bowshop",
         image: bowshop,
-        skills: "Javascript, HTML, CSS, NodeJS, ExpressJS, MongoDB"
+        skills: "Javascript, HTML, CSS, NodeJS, ExpressJS, MongoDB",
+        link: "https://github.com/Eero556/portfolio/blob/main/OMA-projekti/Dokumentaatio/Dokumentaatio.md"
     },
     {
-        name: "bo",
-        image: bowshop,
-        skills: "jotai"
+        name: "Coming soon!",
+        skills: "Coming soon!"
+    },
+    {
+        name:"Coming soon!",
+        skills:"Coming soon!"
+    },
+    {
+        name:"Coming soon!",
+        skills:"Coming soon!"
     }
 ]

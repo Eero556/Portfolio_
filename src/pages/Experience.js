@@ -48,12 +48,8 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Bachelor's Degree
           </h4>
-
           <p> Information and Communication Technology</p>
         </VerticalTimelineElement>
-      
-
-        
       </VerticalTimeline>
     </div>
   );

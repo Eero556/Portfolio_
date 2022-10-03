@@ -1,17 +1,18 @@
 import React from 'react'
-import {useNavigate} from "react-router-dom"
-function ProjectItem({image, name, id}) {
+import { useNavigate } from "react-router-dom"
+function ProjectItem({ image, name, id }) {
 
-    const navigate = useNavigate();
-    // Hopping/navigating to own project page
-    const hop = () =>{
-        navigate("/project/" + id)
-    }
+  const navigate = useNavigate();
+
+  // Hopping/navigating to own project page
+  const hop = () => {
+    navigate("/project/" + id)
+  }
 
   return (
     <div className='projectItem' onClick={hop}>
-        <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
-            <h1>{name}</h1>
+      <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+      <h1>{name}</h1>
     </div>
   )
 }

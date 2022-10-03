@@ -5,8 +5,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #0d1117;
 }
 
+.projects h1 {
+    color: aliceblue;
+}
 .projects .projectTitle {
     text-align: center;
     color: #3e497a;
@@ -31,6 +35,7 @@
     margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
+    background-color: aliceblue;
 }
 
 .projectItem:hover {
@@ -51,6 +56,7 @@
 
 .projectItem h1 {
     font-size: 25px;
+    background-color: #0d1117;
 }
 
 @media only screen and (max-width: 1300px) {
