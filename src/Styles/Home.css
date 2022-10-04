@@ -81,7 +81,15 @@ html {
     color: black;
 }
 
+.linkedin{
+    background-color: #3e497a;
+    border-radius: 25%;
+}
 
+.github{
+    background-color: black;
+    border-radius: 50%;
+}
 
 
 

@@ -23,7 +23,7 @@ function Home() {
         <div className='prompt'>
           <p>A Software Developer</p>
           <a href='https://www.linkedin.com/in/eero-kantonen-7389a3209/'><LinkedIn  className='linkedin'/></a>
-          <a href='https://github.com/Eero556'><Github /></a>
+          <a href='https://github.com/Eero556'><Github className='github'/></a>
           <a href="mailto: eero.kantonen@elisanet.fi"><Email /></a>
 
         </div>
