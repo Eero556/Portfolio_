@@ -56,7 +56,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     
 }
@@ -81,6 +81,10 @@ html {
     color: black;
 }
 
+.skill-desc{
+    font-size: 22px;
+}
+
 .linkedin{
     background-color: #3e497a;
     border-radius: 25%;
@@ -93,7 +97,14 @@ html {
 
 
 
-
+@media only screen and (max-width: 1200px){
+    .skills{
+        flex-direction: row;
+    }
+    .skills h2 {
+        font-size: 30px;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .about h2 {
@@ -108,6 +119,7 @@ html {
 
     .skills {
         text-align: center;
+        flex-direction: row;
     }
 
     .list {
@@ -116,5 +128,8 @@ html {
 
     .skills h2 {
         font-size: 30px;
+    }
+    .skill-desc{
+        font-size: 20px;
     }
 }
