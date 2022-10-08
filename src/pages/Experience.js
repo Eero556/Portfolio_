@@ -3,6 +3,7 @@ import {VerticalTimeline,VerticalTimelineElement} from "react-vertical-timeline-
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
+import AtmIcon from '@material-ui/icons/Atm';
 
 function Experience() {
   return (
@@ -49,6 +50,17 @@ function Experience() {
             Bachelor's Degree
           </h4>
           <p> Information and Communication Technology</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<AtmIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          Making own projects and research on reactjs/nodejs!
+          </h3>
+
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

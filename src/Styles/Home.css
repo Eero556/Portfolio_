@@ -85,16 +85,17 @@ html {
     font-size: 22px;
 }
 
-.linkedin{
-    background-color: #3e497a;
-    border-radius: 25%;
+.linkedin:hover{
+    opacity: 0.2;
 }
 
-.github{
-    background-color: black;
-    border-radius: 50%;
+.github:hover{
+    opacity: 0.2;
 }
 
+.email:hover{
+    opacity: 0.2;
+}
 
 
 @media only screen and (max-width: 1200px){

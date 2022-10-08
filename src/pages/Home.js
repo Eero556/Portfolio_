@@ -12,13 +12,13 @@ function Home() {
       <div className='about'>
         <img src={Picture} alt="Eero" />
         <h3>Hi, My Name is Eero Kantonen</h3>
-        <p>Third-year student at Jamk university of applied sciences</p>
+        <p>Software Developer</p>
 
         <div className='prompt'>
-          <p>A Software Developer</p>
-          <a href='https://www.linkedin.com/in/eero-kantonen-7389a3209/'><LinkedIn className='linkedin' /></a>
-          <a href='https://github.com/Eero556'><Github className='github' /></a>
-          <a href="mailto: eero.kantonen@elisanet.fi"><Email /></a>
+          <p>Best way to contact me is through LinkedIn</p>
+          <a className="linkedin" href='https://www.linkedin.com/in/eero-kantonen-7389a3209/'><LinkedIn  /></a>
+          <a className="github" href='https://github.com/Eero556'><Github  /></a>
+          <a className="email" href="mailto: eero.kantonen@elisanet.fi"><Email /></a>
 
         </div>
       </div>
