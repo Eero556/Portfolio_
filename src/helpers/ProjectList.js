@@ -14,7 +14,7 @@ export const projectList = [
         name: "Golfcourses app",
         skills: "React, Leaflet, Json server, Axios",
         image: leaflet,
-        link: "https://github.com/Eero556/React/tree/main/Homework/golfcourses"
+        link: "https://github.com/Eero556/React-apps/tree/main/Homework/golfcourses"
     },
     {
         name:"Weather app",
@@ -27,6 +27,23 @@ export const projectList = [
         skills:"React native, Axios, MovieDB api",
         image: movienative,
         link: "https://github.com/Eero556/React-native-apps/tree/main/Homework/Movies"
+
+    },
+    {
+        name:"Coming soon!",
+        skills:"Coming soon!",
+        
+
+    },{
+        name:"Coming soon!",
+        skills:"Coming soon!",
+        
+
+    },
+    {
+        name:"Coming soon!",
+        skills:"Coming soon!",
+        
 
     }
 ]

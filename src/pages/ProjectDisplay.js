@@ -19,7 +19,7 @@ function ProjectDisplay() {
           <a href={project.link}><GitHub/><label>More at github</label></a>
         </div>
         
-        <Link className='link' to={"/projects"}>Back to projects</Link>
+        <Link className='link' to={"/projects"}><button>Back to Projects</button></Link>
     </div>
   )
 }
