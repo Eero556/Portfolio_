@@ -35,6 +35,9 @@ function Experience() {
           <p>
             Managing and packing customer orders
           </p>
+          <h4>Referee</h4>
+          <p>Antti Heikkinen</p>
+          <span>antti.heikkinen@kesko.fi</span>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
