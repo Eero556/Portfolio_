@@ -5,13 +5,13 @@ import movienative from "../Assets/movie-native.PNG"
 
 export const projectList = [
     {
-        name: "Bowshop (Finnish dokumentation)",
+        name: "Bowshop app",
         image: bowshop,
         skills: "Javascript, HTML, CSS, NodeJS, ExpressJS, MongoDB",
         link: "https://github.com/Eero556/Bowshop/blob/main/OMA-projekti/Dokumentaatio/Dokumentaatio.md",
     },
     {
-        name: "Golfcourses",
+        name: "Golfcourses app",
         skills: "React, Leaflet, Json server, Axios",
         image: leaflet,
         link: "https://github.com/Eero556/React/tree/main/Homework/golfcourses"
