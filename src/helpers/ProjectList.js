@@ -1,6 +1,7 @@
 import bowshop from "../Assets/bowshop-html.PNG"
 import leaflet from "../Assets/leaflet.PNG"
 import reactWeather from "../Assets/React-weather.PNG"
+import movienative from "../Assets/movie-native.PNG"
 
 export const projectList = [
     {
@@ -22,7 +23,10 @@ export const projectList = [
         link: "https://github.com/Eero556/React/tree/main/Homework/weather-app"
     },
     {
-        name:"Coming soon!",
-        skills:"Coming soon!"
+        name:"MovieDB app",
+        skills:"React native, Axios, MovieDB api",
+        image: movienative,
+        link: "https://github.com/Eero556/React-native-apps/tree/main/Homework/Movies"
+
     }
 ]

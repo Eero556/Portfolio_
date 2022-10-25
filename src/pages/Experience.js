@@ -4,7 +4,7 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import AtmIcon from '@material-ui/icons/Atm';
-
+import "../Styles/Experience.css"
 function Experience() {
   return (
     <div className="experience">
@@ -16,13 +16,13 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Martinlaakso high school
+            Martinlaakso high school 2014 - 2017
           </h3>
           <p> High School Diploma</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2018 - 2020 (fulltime) 2020 -->  (summer jobs)"
+          date="2018-2020 -> Summer jobs"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
