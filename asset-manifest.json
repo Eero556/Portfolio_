@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio_/static/css/main.f41fd053.css",
-    "main.js": "/Portfolio_/static/js/main.1516d05c.js",
+    "main.css": "/Portfolio_/static/css/main.20cc88e5.css",
+    "main.js": "/Portfolio_/static/js/main.aed98521.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaflet.PNG": "/Portfolio_/static/media/leaflet.ccf3ba08a68bd3483ee4.PNG",
-    "static/media/movie-native.PNG": "/Portfolio_/static/media/movie-native.d5fe40050795027f29eb.PNG",
     "static/media/toka.jpg": "/Portfolio_/static/media/toka.979ea0ac5e378bf87689.jpg",
     "static/media/Jeero.jpg": "/Portfolio_/static/media/Jeero.4aa3e0a3e54723f6427e.jpg",
+    "static/media/movie-native.PNG": "/Portfolio_/static/media/movie-native.3aa9d3c84ab16d235dd5.PNG",
     "static/media/bowshop-html.PNG": "/Portfolio_/static/media/bowshop-html.c57064a82f65f2462bad.PNG",
     "static/media/React-weather.PNG": "/Portfolio_/static/media/React-weather.c66eb6c17072807762f7.PNG",
     "index.html": "/Portfolio_/index.html",
-    "main.f41fd053.css.map": "/Portfolio_/static/css/main.f41fd053.css.map",
-    "main.1516d05c.js.map": "/Portfolio_/static/js/main.1516d05c.js.map",
+    "main.20cc88e5.css.map": "/Portfolio_/static/css/main.20cc88e5.css.map",
+    "main.aed98521.js.map": "/Portfolio_/static/js/main.aed98521.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f41fd053.css",
-    "static/js/main.1516d05c.js"
+    "static/css/main.20cc88e5.css",
+    "static/js/main.aed98521.js"
   ]
 }
