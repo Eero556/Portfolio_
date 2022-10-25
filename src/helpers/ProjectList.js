@@ -8,7 +8,7 @@ export const projectList = [
         name: "Bowshop",
         image: bowshop,
         skills: "Javascript, HTML, CSS, NodeJS, ExpressJS, MongoDB",
-        link: "https://github.com/Eero556/portfolio/blob/main/OMA-projekti/Dokumentaatio/Dokumentaatio.md"
+        link: "https://github.com/Eero556/portfolio/blob/main/OMA-projekti/Dokumentaatio/Dokumentaatio.md",
     },
     {
         name: "Golfcourses",
@@ -18,9 +18,9 @@ export const projectList = [
     },
     {
         name:"Weather app",
-        skills:"React, Axios, OpenWeather api",
+        skills:"React native, Axios, OpenWeather api",
         image: reactWeather,
-        link: "https://github.com/Eero556/React/tree/main/Homework/weather-app"
+        link: "https://github.com/Eero556/React-native-apps/tree/main/Homework/WeatherApp"
     },
     {
         name:"MovieDB app",
