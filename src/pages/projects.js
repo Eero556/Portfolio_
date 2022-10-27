@@ -4,14 +4,14 @@ import "../Styles/Project.css"
 import {projectList} from "../helpers/ProjectList"
 function projects() {
   return (
-    <div className='projects'>
+    <section className='projects'>
       <h1> My projects</h1>
       <div className='projectList'>
         {projectList.map((project, index) => {
           return <ProjectItem key={index} id={index} name={project.name} image={project.image}/>
         })}
       </div>
-    </div>
+    </section>
   )
 }
 

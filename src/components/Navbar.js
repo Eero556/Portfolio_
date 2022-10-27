@@ -19,7 +19,7 @@ function Navbar() {
   }, [location])
 
   return (
-    <div className='navbar' id={expandNavbar ? "open" : "close"}>
+    <nav className='navbar' id={expandNavbar ? "open" : "close"}>
 
       <div className='toggleButton'>
         <button className='hamburger' onClick={button_logic}><Button /></button>
@@ -32,7 +32,7 @@ function Navbar() {
         <Link to={"/experience"}>Experience</Link>
       </div>
 
-    </div>
+    </nav>
   )
 }
 

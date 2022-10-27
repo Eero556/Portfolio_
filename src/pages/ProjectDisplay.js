@@ -10,7 +10,7 @@ function ProjectDisplay() {
     const {id} = useParams();
     const project = projectList[id]
   return (
-    <div className='project'>
+    <section className='project'>
         <h1>{project.name}</h1>
         <img src={project.image} alt="kuva"/>
         <h1>Used techologies</h1>
@@ -20,7 +20,7 @@ function ProjectDisplay() {
         </div>
         
         <Link className='link' to={"/projects"}><button>Back to Projects</button></Link>
-    </div>
+    </section>
   )
 }
 

@@ -8,8 +8,8 @@ import { skillList } from "../helpers/Skills"
 
 function Home() {
   return (
-    <div className='home'>
-      <div className='about'>
+    <main className='home'>
+      <section className='about'>
         <img src={Picture} alt="Eero" />
         <h3>Hi, My Name is Eero Kantonen</h3>
         <p>Software Developer</p>
@@ -21,9 +21,9 @@ function Home() {
           <a className="email" href="mailto: eero.kantonen@elisanet.fi"><Email /></a>
 
         </div>
-      </div>
+      </section>
       <h1>Skills</h1>
-      <div className='skills'>
+      <section className='skills'>
         {skillList.map((skill, index) => {
           return <div key={index} className='skillsItem'>
             <li>
@@ -33,9 +33,9 @@ function Home() {
           </div>
         })}
 
-      </div>
+      </section>
 
-    </div>
+    </main>
   )
 }
 

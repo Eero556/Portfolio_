@@ -7,7 +7,7 @@ import AtmIcon from '@material-ui/icons/Atm';
 import "../Styles/Experience.css"
 function Experience() {
   return (
-    <div className="experience">
+    <section className="experience">
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -67,7 +67,7 @@ function Experience() {
 
         </VerticalTimelineElement>
       </VerticalTimeline>
-    </div>
+    </section>
   );
 }
 
