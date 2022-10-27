@@ -22,7 +22,7 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2018-2020 -> Summer jobs"
+          
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -32,6 +32,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Warehouse worker
           </h4>
+          <h3>Fulltime 2018-2020 -> Summer jobs</h3>
           <p>
             Managing and packing customer orders
           </p>
@@ -41,13 +42,13 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2020 -->"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
           Jamk University of Applied Sciences
           </h3>
+          <h3>2020 --></h3>
 
           <h4 className="vertical-timeline-element-subtitle">
             Bachelor's Degree

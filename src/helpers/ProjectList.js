@@ -1,4 +1,4 @@
-import bowshop from "../Assets/bowshop-html.PNG"
+import bowshop from "../Assets/bow.PNG"
 import leaflet from "../Assets/leaflet.PNG"
 import reactWeather from "../Assets/React-weather.PNG"
 import movienative from "../Assets/movie-native.PNG"
