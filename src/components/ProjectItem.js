@@ -4,7 +4,7 @@ function ProjectItem({ image, name, id }) {
 
   
   const navigate = useNavigate();
-  console.log(name)
+  
 
   // Hopping/navigating to own project page
   const hop = () => {

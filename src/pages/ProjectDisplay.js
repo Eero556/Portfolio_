@@ -15,6 +15,8 @@ function ProjectDisplay() {
         <img src={project.image} alt="kuva"/>
         <h1>Used techologies</h1>
         <p>{project.skills}</p>
+        <h1>About</h1>
+        <p>{project.about}</p>
         <div>
           <a href={project.link}><GitHub/><label>More at github</label></a>
         </div>
