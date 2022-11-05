@@ -23,7 +23,7 @@
 }
 
 .videoframe{
-    width: 80%;
+    width: 50%;
     height: 600px;
     padding: 2em;
 }
@@ -54,8 +54,8 @@ label{
 
 
 @media only screen and (max-width: 800px) {
-    .project img{
-        width: 100%;
+    .videoframe{
+        width: 90%;
         
     }
     

@@ -48,5 +48,8 @@ export const projectList = [
         skills:"Coming soon!",
         
 
+    },
+    {
+        name: "Coming soon!"
     }
 ]

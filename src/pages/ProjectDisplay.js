@@ -12,7 +12,7 @@ function ProjectDisplay() {
   return (
     <section className='project'>
         <h1>{project.name}</h1>
-        <iframe className='videoframe' src={project.video} frameborder="0" title="Veed Recording - 5 November 2022" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe className='videoframe' src={project.video} title="Video" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
         <h1>Used techologies</h1>
         <p>{project.skills}</p>
         <h1>About</h1>
