@@ -35,11 +35,12 @@ html {
 }
 
 .about p{
-    font-size: 23px;
+    font-size: 32px;
 }
 
 .about span{
     padding: 1em;
+    font-size: large;
 }
 
 

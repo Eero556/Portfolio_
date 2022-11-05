@@ -15,9 +15,7 @@ function Home() {
         <p>Software Developer</p>
         <span>Email: eero.kantonen@elisanet</span>
         <span>Phone: +358451361822</span>
-
         <div className='prompt'>
-          <p>Best way to contact me is through LinkedIn</p>
           <a className="linkedin" href='https://www.linkedin.com/in/eero-kantonen-7389a3209/'><LinkedIn  /></a>
           <a className="github" href='https://github.com/Eero556'><Github  /></a>
           <a className="email" href="mailto: eero.kantonen@elisanet.fi"><Email /></a>
