@@ -13,6 +13,8 @@ function Home() {
         <img src={Picture} alt="Eero" />
         <h3>Hi, My Name is Eero Kantonen</h3>
         <p>Software Developer</p>
+        <span>Email: eero.kantonen@elisanet</span>
+        <span>Phone: +358451361822</span>
 
         <div className='prompt'>
           <p>Best way to contact me is through LinkedIn</p>

@@ -38,6 +38,10 @@ html {
     font-size: 23px;
 }
 
+.about span{
+    padding: 1em;
+}
+
 
 .about img {
     padding-top: 2em;

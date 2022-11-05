@@ -22,10 +22,16 @@
     margin-top: 20px;
 }
 
+.videoframe{
+    width: 80%;
+    height: 600px;
+    padding: 2em;
+}
+
 
 
 .project p {
-    font-size: 30px;
+    font-size: 24px;
     color: whitesmoke;
 }
 

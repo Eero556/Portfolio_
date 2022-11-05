@@ -12,15 +12,14 @@ function ProjectDisplay() {
   return (
     <section className='project'>
         <h1>{project.name}</h1>
-        <img src={project.image} alt="kuva"/>
+        <iframe className='videoframe' src={project.video} frameborder="0" title="Veed Recording - 5 November 2022" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         <h1>Used techologies</h1>
         <p>{project.skills}</p>
         <h1>About</h1>
         <p>{project.about}</p>
         <div>
-          <a href={project.link}><GitHub/><label>More at github</label></a>
+          <a href={project.link}><GitHub/><label>source code</label></a>
         </div>
-        
         <Link className='link' to={"/projects"}><button>Back to Projects</button></Link>
     </section>
   )
