@@ -2,7 +2,7 @@ import bowshop from "../Assets/bow.PNG"
 import leaflet from "../Assets/leaflet.PNG"
 import reactWeather from "../Assets/React-weather.PNG"
 import movienative from "../Assets/movie-native.PNG"
-
+import crypto from "../Assets/crypto.PNG"
 export const projectList = [
     {
         name: "Bowshop app",
@@ -11,6 +11,14 @@ export const projectList = [
         about: "Uses CRUD operations and displays items to the screen",
         link: "https://github.com/Eero556/Bowshop/blob/main/OMA-projekti/Dokumentaatio/Dokumentaatio.md",
         video: "https://www.veed.io/embed/99867d54-432d-4750-a20b-8ac7b0dd3c87"
+    },
+    {
+        name:"Crypto tracker",
+        image: crypto,
+        skills: "React, CSS, PostgreSQL, NodeJs,ExpressJs, ChartJs",
+        about: "Tracking crypto coins prices",
+        link: "Coming soon",
+        video: "https://veed.io/embed/3d1b237d-01e4-4ac5-b949-4e17d2f88c18"
     },
     {
         name: "Golfcourses app",

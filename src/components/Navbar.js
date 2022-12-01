@@ -19,14 +19,14 @@ function Navbar() {
   }, [location])
 
   return (
-    <nav className='navbar' id={expandNavbar ? "open" : "close"}>
+    <nav className='navbarContainer' id={expandNavbar ? "open" : "close"}>
 
       <div className='toggleButton'>
         <button className='hamburger' onClick={button_logic}><Button /></button>
         <button onClick={button_logic} className='cross'><Clear /></button>
       </div>
       <Link to={'Portfolio_/'} className="navbar-name">Eero Kantonen</Link>
-      <div className='links'>
+      <div className='linkss'>
         <Link to={'Portfolio_/'}>Home</Link>
         <Link to={"/projects"}>Projects</Link>
         <Link to={"/experience"}>Experience</Link>

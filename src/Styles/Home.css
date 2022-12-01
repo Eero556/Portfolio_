@@ -1,4 +1,6 @@
-
+*{
+    list-style: none;
+}
 
 .home {
     width: 100%;
@@ -53,15 +55,21 @@ html {
 }
 
 .about .prompt {
-    width: 40%;
     font-size: 30px;
-    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0.5em;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    
 }
+
 
 .prompt svg {
     font-size: 60px;
-    margin: 10px;
-    color: white;
+    display: inline-block;
 }
 
 
@@ -71,7 +79,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: #0d1117;
     
@@ -105,22 +113,12 @@ html {
     color: whitesmoke;
 }
 
-.linkedin:hover{
-    opacity: 0.2;
-}
 
-.github:hover{
-    opacity: 0.2;
-}
-
-.email:hover{
-    opacity: 0.2;
-}
 
 
 @media only screen and (max-width: 1200px){
     .skills{
-        flex-direction: row;
+        flex-direction: column;
     }
     .skills h2 {
         font-size: 30px;
@@ -140,7 +138,7 @@ html {
 
     .skills {
         text-align: center;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .list {

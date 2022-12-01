@@ -8,7 +8,7 @@ export const skillList = [
     },
     {
         Title: "Back-End",
-        Desc: "NodeJS, ExpressJS, MySQL, MongoDB"
+        Desc: "NodeJS, ExpressJS, MySQL, PostgreSQL, MongoDB"
         
     },
     {

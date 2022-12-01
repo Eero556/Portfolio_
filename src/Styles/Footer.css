@@ -10,30 +10,28 @@
   flex-direction: column;
 }
 
+.socialMedia{
+  display: flex;
+  gap: 3em;
+}
+
 .socialMedia svg {
   color: white;
   margin: 20px;
-  font-size: 50px;
+  font-size: 40px;
   cursor: pointer;
 }
 
 .footer p {
   color: white;
+  font-size: larger;
+  margin-top: 30px;
 }
 
-.linkedin {
-  border-radius: 25%;
-}
 
 
 
-.github :hover{
-  opacity: 0.2;
-}
 
-.linkedin :hover{
-  opacity: 0.2;
-}
 
 @media only screen and (max-width: 600px) {
   .footer svg {
