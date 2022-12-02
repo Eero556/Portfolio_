@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectItem from '../components/ProjectItem'
-import "../Styles/Project.css"
+import "../Styles/project.scss"
 import {projectList} from "../helpers/ProjectList"
 function projects() {
   return (

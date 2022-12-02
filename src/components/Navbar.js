@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from "react-router-dom"
-import "../Styles/navbar.css"
+import "../Styles/navbar.scss"
 import Button from "@material-ui/icons/Reorder"
 import Clear from "@material-ui/icons/Clear"
 

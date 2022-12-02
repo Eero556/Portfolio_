@@ -2,7 +2,7 @@ import React from 'react'
 import LinkedIn from "@material-ui/icons/LinkedIn"
 import Github from "@material-ui/icons/GitHub"
 import Email from "@material-ui/icons/Email"
-import "../Styles/Footer.css"
+import "../Styles/footer.scss"
 function Footer() {
   return (
     <footer className='footer'>

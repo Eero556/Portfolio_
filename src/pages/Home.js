@@ -2,7 +2,7 @@ import React from 'react'
 import Email from "@material-ui/icons/Email"
 import LinkedIn from "@material-ui/icons/LinkedIn"
 import Github from "@material-ui/icons/GitHub"
-import "../Styles/Home.css"
+import "../Styles/Home.scss"
 import Picture from "../Assets/Jeero.jpg"
 import { skillList } from "../helpers/Skills"
 

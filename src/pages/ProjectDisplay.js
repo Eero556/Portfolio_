@@ -2,7 +2,7 @@ import React from 'react'
 import {useParams} from "react-router-dom"
 import {projectList} from "../helpers/ProjectList"
 import GitHub from '@material-ui/icons/GitHub';
-import "../Styles/ProjectDisplay.css"
+import "../Styles/projectdisplay.scss"
 import {Link} from "react-router-dom"
 
 function ProjectDisplay() {
@@ -12,7 +12,7 @@ function ProjectDisplay() {
   return (
     <section className='project'>
         <h1>{project.name}</h1>
-        <iframe className='videoframe' src={project.video} title="Video" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+        <iframe className='videoframe' src={project.video} title="Video"  allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
         <h1>Used techologies</h1>
         <p>{project.skills}</p>
         <h1>About</h1>
