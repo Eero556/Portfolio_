@@ -15,7 +15,7 @@ export const projectList = [
     {
         name:"Crypto tracker",
         image: crypto,
-        skills: "React, SCSS, PostgreSQL, NodeJs,ExpressJs, ChartJs",
+        skills: "React, CSS, PostgreSQL, NodeJs,ExpressJs, ChartJs",
         about: "Tracking crypto coins prices",
         link: "Coming soon",
         video: "https://veed.io/embed/3d1b237d-01e4-4ac5-b949-4e17d2f88c18"

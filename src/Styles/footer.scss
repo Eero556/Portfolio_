@@ -23,7 +23,7 @@
     svg {
         color: white;
         margin: 20px;
-        font-size: 40px;
+        font-size: 20px;
         cursor: pointer;
     }
 }
@@ -36,6 +36,6 @@
 
 @media only screen and (max-width: 600px) {
     .footer svg {
-        font-size: 50px;
+        font-size: 30px;
     }
 }

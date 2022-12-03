@@ -5,15 +5,16 @@ import Github from "@material-ui/icons/GitHub"
 import "../Styles/Home.scss"
 import Picture from "../Assets/Jeero.jpg"
 import { skillList } from "../helpers/Skills"
+import {motion} from "framer-motion"
 
 function Home() {
   return (
-    <main className='home'>
+    <motion.main initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} className='home'>
       <section className='about'>
         <img src={Picture} alt="Eero" />
-        <h3>Hi, My Name is Eero Kantonen</h3>
+        <h3 className=''>Hi, My Name is Eero Kantonen</h3>
         <p>Software Developer</p>
-        <span>Email: eero.kantonen@elisanet</span>
+        <span>Email: eero.kantonen@elisanet.fi</span>
         <span>Phone: +358451361822</span>
         <div className='prompt'>
             <li><a className='btn btn-primary btn-lg btn-floating bg-dark' href='https://www.linkedin.com/in/eero-kantonen-7389a3209/'><LinkedIn /></a></li>
@@ -34,7 +35,7 @@ function Home() {
 
       </section>
 
-    </main>
+    </motion.main>
   )
 }
 
