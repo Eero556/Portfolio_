@@ -4,7 +4,7 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import AtmIcon from '@material-ui/icons/Atm';
-import "../Styles/experience.scss"
+
 function Experience() {
   return (
     <section className="experience">

@@ -1,17 +1,14 @@
-*{
+* {
     list-style: none;
 }
 
 .home {
-    width: 100%;
-    height: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
     color: #3e497a;
 }
 
-.home h1{
-    
+.home h1 {
+
     color: whitesmoke;
     background-color: #0d1117;
     margin: 0;
@@ -27,32 +24,40 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../Assets/toka.jpg');
+    background-color: #0d1117;
     color: #f0f0f0;
+
+    h3 {
+        color: whitesmoke;
+        font-size: 37px;
+        margin-top: 1em;
+    }
+
+    p {
+        font-size: 32px;
+    }
+
+    span {
+        padding: 1em;
+        font-size: 1.3em;
+    }
+
+    img {
+        padding-top: 2em;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+
 }
 
-.about h3{
-    color: whitesmoke;
-    font-size: 37px;
-}
-
-.about p{
-    font-size: 32px;
-}
-
-.about span{
-    padding: 1em;
-    font-size: large;
-}
 
 
-.about img {
-    padding-top: 2em;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
 
-}
+
+
+
 
 .about .prompt {
     font-size: 30px;
@@ -63,7 +68,7 @@ html {
     gap: 1em;
     flex-wrap: wrap;
     margin-bottom: 80px;
-    
+
 }
 
 
@@ -73,7 +78,7 @@ html {
 }
 
 
-.skills{
+.skills {
     width: 100%;
     height: auto;
     display: flex;
@@ -82,10 +87,10 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #0d1117;
-    
+
 }
 
-.skillsItem{
+.skillsItem {
     width: 300px;
     height: 200px;
     min-width: 100px;
@@ -98,17 +103,17 @@ html {
     padding: 0.4em;
     color: black;
     margin-block-start: 0;
-    
+
 
 }
 
-.skill-title{
+.skill-title {
     font-size: 2em;
     color: #7b8ead;
-    
+
 }
 
-.skill-desc{
+.skill-desc {
     font-size: 22px;
     color: whitesmoke;
 }
@@ -116,10 +121,11 @@ html {
 
 
 
-@media only screen and (max-width: 1200px){
-    .skills{
+@media only screen and (max-width: 1200px) {
+    .skills {
         flex-direction: column;
     }
+
     .skills h2 {
         font-size: 30px;
     }
@@ -148,7 +154,8 @@ html {
     .skills h2 {
         font-size: 30px;
     }
-    .skill-desc{
+
+    .skill-desc {
         font-size: 20px;
     }
 }

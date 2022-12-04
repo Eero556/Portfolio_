@@ -89,7 +89,9 @@
 
 
 .active{
-  color: red !important;
+  color: gray !important;
+  opacity: 0.5;
+  border-bottom: red 1px solid;
 }
 
 

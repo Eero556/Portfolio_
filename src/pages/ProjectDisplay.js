@@ -2,7 +2,6 @@ import React from 'react'
 import {useParams} from "react-router-dom"
 import {projectList} from "../helpers/ProjectList"
 import GitHub from '@material-ui/icons/GitHub';
-import "../Styles/projectdisplay.scss"
 import {Link} from "react-router-dom"
 
 function ProjectDisplay() {

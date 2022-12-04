@@ -1,17 +1,14 @@
-import React from 'react'
-import LinkedIn from "@material-ui/icons/LinkedIn"
-import Github from "@material-ui/icons/GitHub"
-import Email from "@material-ui/icons/Email"
-import "../Styles/footer.scss"
+
+import { SocialIcon } from 'react-social-icons';
 function Footer() {
   return (
     <footer className='footer'>
-        <div className='socialMedia'>
-            <a className='btn btn-primary btn-lg btn-floating bg-dark' href='https://www.linkedin.com/in/eero-kantonen-7389a3209/'><LinkedIn/></a>
-            <a className='btn btn-primary btn-lg btn-floating bg-dark' href='https://github.com/Eero556'><Github /></a>
-            <a className="btn btn-primary btn-lg btn-floating bg-dark" href = "mailto: eero.kantonen@elisanet.fi"><Email/></a>
-        </div>
-        <p>&copy; 2022 Eero Kantonen</p>
+      <div className='socialMedia'>
+        <SocialIcon url="https://github.com/Eero556" fgColor='white' />
+        <SocialIcon url="https://www.linkedin.com/in/eero-kantonen-7389a3209/" fgColor='white' />
+        <SocialIcon url="mailto: eero.kantonen@elisanet.fi" />
+      </div>
+      <p>&copy; 2022 Eero Kantonen</p>
     </footer>
   )
 }

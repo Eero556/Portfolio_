@@ -9,6 +9,7 @@
 
     h1 {
         color: #4a7ca8;
+        margin-top: 1em;
     }
 
     .projectTitle {
@@ -28,6 +29,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+
+    h1{
+        margin: 0;
+    }
 }
 
 
@@ -42,8 +47,6 @@
     background-color: white;
 
     :hover {
-        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-        transition: 0.3s ease-in;
         cursor: pointer;
     }
 
@@ -61,6 +64,10 @@
     h1 {
         font-size: 30px;
         background-color: #0d1117;
+    }
+
+    span{
+        color: rebeccapurple;
     }
 }
 

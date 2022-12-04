@@ -16,7 +16,7 @@ function ProjectItem({ image, name, id }) {
     <motion.section whileHover={{scale: 1.2}} className='projectItem' onClick={hop}>
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h1>{name}</h1>
-      <p>Date</p>
+      <span className='projectdisplaySpan'>Date</span>
     </motion.section>
   )
 }

@@ -1,15 +1,11 @@
 import React from 'react'
-import Email from "@material-ui/icons/Email"
-import LinkedIn from "@material-ui/icons/LinkedIn"
-import Github from "@material-ui/icons/GitHub"
-import "../Styles/Home.scss"
 import Picture from "../Assets/Jeero.jpg"
 import { skillList } from "../helpers/Skills"
-import {motion} from "framer-motion"
-
+import { motion } from "framer-motion"
+import { SocialIcon } from 'react-social-icons';
 function Home() {
   return (
-    <motion.main initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} className='home'>
+    <motion.main initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className='home'>
       <section className='about'>
         <img src={Picture} alt="Eero" />
         <h3 className=''>Hi, My Name is Eero Kantonen</h3>
@@ -17,9 +13,9 @@ function Home() {
         <span>Email: eero.kantonen@elisanet.fi</span>
         <span>Phone: +358451361822</span>
         <div className='prompt'>
-            <li><a className='btn btn-primary btn-lg btn-floating bg-dark' href='https://www.linkedin.com/in/eero-kantonen-7389a3209/'><LinkedIn /></a></li>
-            <li><a className='btn btn-primary btn-lg btn-floating bg-dark' href='https://github.com/Eero556'><Github /></a></li>
-            <li><a className='btn btn-primary btn-lg btn-floating bg-dark' href="mailto: eero.kantonen@elisanet.fi"><Email /></a></li>
+          <SocialIcon url="https://github.com/Eero556" fgColor='white' />
+          <SocialIcon url="https://www.linkedin.com/in/eero-kantonen-7389a3209/" fgColor='white' className='btn btn-lg btn-floating' />
+          <SocialIcon url="mailto: eero.kantonen@elisanet.fi" />
         </div>
       </section>
       <h1>Skills</h1>
