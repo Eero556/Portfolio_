@@ -9,13 +9,13 @@ function Home() {
       <section className='about'>
         <img src={Picture} alt="Eero" />
         <h3 className=''>Hi, My Name is Eero Kantonen</h3>
-        <p>Software Developer</p>
+        <p>Software and Web Developer</p>
         <span>Email: eero.kantonen@elisanet.fi</span>
-        <span>Phone: +358451361822</span>
+        <span>Phone: +358 451 361 822</span>
         <div className='prompt'>
-          <SocialIcon url="https://github.com/Eero556" fgColor='white' />
-          <SocialIcon url="https://www.linkedin.com/in/eero-kantonen-7389a3209/" fgColor='white' className='btn btn-lg btn-floating' />
-          <SocialIcon url="mailto: eero.kantonen@elisanet.fi" />
+          <SocialIcon target="_blank" url="https://github.com/Eero556" fgColor='white' />
+          <SocialIcon target="_blank" url="https://www.linkedin.com/in/eero-kantonen-7389a3209/" fgColor='white' className='btn btn-lg btn-floating' />
+          <SocialIcon target="_blank" url="mailto: eero.kantonen@elisanet.fi" />
         </div>
       </section>
       <h1>Skills</h1>
