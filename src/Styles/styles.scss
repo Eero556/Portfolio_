@@ -1,6 +1,15 @@
-@use  "./experience.scss";
-@use  "./footer.scss";
-@use  "./Home.scss";
-@use  "./navbar.scss";
-@use  "./project.scss";
-@use  "./projectdisplay.scss";
+@use "./experience.scss";
+@use "./footer.scss";
+@use "./Home.scss";
+@use "./navbar.scss";
+@use "./project.scss";
+@use "./projectdisplay.scss";
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+body {
+    background-color: #0d1117;
+}
+
+// all social buttons!

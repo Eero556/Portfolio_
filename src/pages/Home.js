@@ -1,23 +1,33 @@
 import React from 'react'
 import Picture from "../Assets/Jeero.jpg"
 import { skillList } from "../helpers/Skills"
-import { motion } from "framer-motion"
 import { SocialIcon } from 'react-social-icons';
 function Home() {
   return (
-    <motion.main initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className='home'>
+    <main className='home'>
       <section className='about'>
         <img src={Picture} alt="Eero" />
         <h3 className=''>Hi, My Name is Eero Kantonen</h3>
-        <p>Software and Web Developer</p>
+        <p>Software Developer</p>
         <span>Email: eero.kantonen@elisanet.fi</span>
         <span>Phone: +358 451 361 822</span>
-        <div className='prompt'>
-          <SocialIcon target="_blank" url="https://github.com/Eero556" fgColor='white' />
-          <SocialIcon target="_blank" url="https://www.linkedin.com/in/eero-kantonen-7389a3209/" fgColor='white' className='btn btn-lg btn-floating' />
-          <SocialIcon target="_blank" url="mailto: eero.kantonen@elisanet.fi" />
-        </div>
       </section>
+      <div className='prompt'>
+        
+        <div className='d-flex flex-column align-items-center socialContainer'>
+        <span className='hiddenTip mb-3'>Github</span>
+          <SocialIcon className='socialLink' target="_blank" url="https://github.com/Eero556" fgColor='white' />
+        </div>
+        <div className='d-flex flex-column align-items-center ml-4 socialContainer'>
+          <span className='hiddenTip mb-3'>Email</span>
+          <SocialIcon className='socialLink' target="_blank" url="mailto: eero.kantonen@elisanet.fi" />
+        </div>
+        <div className='d-flex flex-column align-items-center socialContainer'>
+          <span className='hiddenTip mb-3'>Linkedin</span>
+          <SocialIcon className='socialLink' target="_blank" url="https://www.linkedin.com/in/eero-kantonen-7389a3209/" fgColor='white' />
+        </div>
+        
+      </div>
       <h1>Skills</h1>
       <section className='skills'>
         {skillList.map((skill, index) => {
@@ -31,7 +41,7 @@ function Home() {
 
       </section>
 
-    </motion.main>
+    </main>
   )
 }
 

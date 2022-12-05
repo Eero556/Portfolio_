@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { NavLink, useLocation } from "react-router-dom"
+import { NavLink, useLocation, Link } from "react-router-dom"
 import Button from "@material-ui/icons/Reorder"
 import Clear from "@material-ui/icons/Clear"
 
@@ -25,7 +25,7 @@ function Navbar() {
         <button className='hamburger' onClick={button_logic}><Button /></button>
         <button onClick={button_logic} className='cross'><Clear /></button>
       </div>
-      <NavLink to={'Portfolio_/'} className="navbar-name">Eero Kantonen</NavLink>
+      <Link to={'Portfolio_/'} className="navbar-name">Eero Kantonen</Link>
       <div className='linkss'>
         <NavLink to={'Portfolio_/'}>Home</NavLink>
         <NavLink to={"/projects"}>Projects</NavLink>

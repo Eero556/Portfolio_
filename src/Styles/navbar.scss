@@ -81,13 +81,11 @@
   display: flex;
   padding-left: 1em;
   padding-top: 0.5em;
-
-  .navbar-name:hover{
-    opacity: 0.2;
-  }
 }
 
-
+.navbar-name:hover{
+  opacity: 0.2;
+}
 .active{
   color: gray !important;
   opacity: 0.5;

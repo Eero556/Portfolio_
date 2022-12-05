@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom"
 import { motion } from "framer-motion";
-function ProjectItem({ image, name, id }) {
+function ProjectItem({ image, name, id,date }) {
 
   
   const navigate = useNavigate();
@@ -16,7 +16,7 @@ function ProjectItem({ image, name, id }) {
     <motion.section whileHover={{scale: 1.2}} className='projectItem' onClick={hop}>
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h1>{name}</h1>
-      <span className='projectdisplaySpan'>Date</span>
+      <span className='projectdisplaySpan'>Made {date}</span>
     </motion.section>
   )
 }
