@@ -20,17 +20,18 @@ Used technologies:
 
 1. Homepage
 -kuva1-
-![](https://github.com/Eero556/Crypto-Tracker/blob/main/Doku/Images/addcoin-project2.PNG)
+![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio1.PNG)
 
 2. Experiencepage
 -kuva2-
+![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio2.PNG)
 
-3. Projectpage
+3. ProjectListpage
 -kuva3-
-
+![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio3.PNG)
 4. ProjectDisplaypage
 -kuva4-
-
+![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio4.PNG)
 How many hours did this project took me?
 - Making this portfolio took me about 40h? This includes research on projects techologies.
 
