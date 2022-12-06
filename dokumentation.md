@@ -13,25 +13,26 @@ Used technologies:
 
 - ReactJS 
 - SCSS includes flex and grid. 
-- Boostrap mostly used in social icons.
+- Boostrap footer made with it
 - Git and Visual Studio Code
 - Github Pages to display it to the web insted of localhost
 
 
 1. Homepage
-- Homepage where info about me and my skills listed
+- Homepage where info about me and my skills listed. Social buttons have tooltip animation!
 
 ![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio1.PNG)
 
 2. Experiencepage
 
-- Experiencepage where i list my most important career events like jobs and degrees
+- Experiencepage where i list my most important career events like jobs and degrees. Using react-vertical-timeline-component library to display it as timeline.
 ![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio2.PNG)
 
 3. ProjectListpage
 
-- ProjectListpahe where i list all my "good" projects that i see as good practices.
+- ProjectListpage where i list all my "good" projects that i see as good practices.
 ![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio3.PNG)
+
 4. ProjectDisplaypage
 
 -ProjectDisplayPage where induvidual project information can be seen. Also added video to make little introduction of the product.
