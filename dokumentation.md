@@ -15,7 +15,7 @@ Used technologies:
 - SCSS includes flex and grid. 
 - Boostrap footer made with it
 - Git and Visual Studio Code
-- Github Pages to display it to the web insted of localhost
+- Github Pages to host it to the web insted of localhost
 
 
 1. Homepage
@@ -30,7 +30,7 @@ Used technologies:
 
 3. ProjectListpage
 
-- ProjectListpage where i list all my "good" projects that i see as good practices.
+- ProjectListpage where i list all my "good" projects that i see as good practices. Zoom effect when on induvidual project!
 ![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio3.PNG)
 
 4. ProjectDisplaypage
