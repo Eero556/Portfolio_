@@ -19,19 +19,21 @@ Used technologies:
 
 
 1. Homepage
--kuva1-
+- Homepage where info about me and my skills listed
+
 ![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio1.PNG)
 
 2. Experiencepage
--kuva2-
+- Experiencepage where i list my most important career events like jobs and degrees
 ![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio2.PNG)
 
 3. ProjectListpage
--kuva3-
+- ProjectListpahe where i list all my "good" projects that i see as good practices.
 ![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio3.PNG)
 4. ProjectDisplaypage
--kuva4-
+-ProjectDisplayPage where induvidual project information can be seen. Also added video to make little introduction of the product.
 ![](https://github.com/Eero556/Portfolio_/blob/main/Images/portfolio4.PNG)
+
 How many hours did this project took me?
 - Making this portfolio took me about 40h? This includes research on projects techologies.
 
