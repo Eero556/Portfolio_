@@ -13,7 +13,7 @@ export const skillList = [
     },
     {
         Title: "Languages",
-        Desc: "Javascript, Python, C#(basics)"
+        Desc: "Javascript, Typescript, Python, C#"
     },
     {
         Title: "Other",
