@@ -17,6 +17,6 @@ export const skillList = [
     },
     {
         Title: "Other",
-        Desc: "Git, Bash/Powershell, NPM, Visual studio code, Visual studio, Github, Gitlab"
+        Desc: "Git, Bash/Powershell, NPM, Visual studio code, Visual studio, Github, Gitlab, AWS"
     }
 ]

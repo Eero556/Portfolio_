@@ -3,6 +3,7 @@ import leaflet from "../Assets/leaflet.PNG"
 import reactWeather from "../Assets/React-weather.PNG"
 import movienative from "../Assets/movie-native.PNG"
 import crypto from "../Assets/crypto.PNG"
+import youtube from "../Assets/youtube.PNG"
 export const projectList = [
     {
         name: "Bowshop app",
@@ -51,9 +52,12 @@ export const projectList = [
         date:"8.12.2022"
     },
     {
-        name:"Coming soon!",
-        skills:"Coming soon!",
-        
+        name:"Youtube2mp3",
+        skills:"React, Typescript, AWS, CSS",
+        image: youtube,
+        about: "Simple app to make mp3 files from youtube videos + aws hosting",
+        link: "https://github.com/Eero556/Youtube2mp3/tree/main",
+        date: "14.1.2023"
 
     },
     {
