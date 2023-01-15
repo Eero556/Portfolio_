@@ -57,6 +57,7 @@ export const projectList = [
         image: youtube,
         about: "Simple app to make mp3 files from youtube videos + aws hosting",
         link: "https://github.com/Eero556/Youtube2mp3/tree/main",
+        video:"https://www.veed.io/embed/600a8e62-eb94-4267-bc3f-f9a140a10bbf",
         date: "14.1.2023"
 
     },
