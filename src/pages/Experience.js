@@ -61,8 +61,9 @@ function Experience() {
           icon={<AtmIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Making own projects and research on reactjs/nodejs!
+          Working at Wärtsilä as software developer trainee
           </h3>
+          <h3>2.5.2023 --> 30.9.2023</h3>
 
         </VerticalTimelineElement>
       </VerticalTimeline>
