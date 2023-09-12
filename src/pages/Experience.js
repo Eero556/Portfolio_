@@ -37,7 +37,7 @@ function Experience() {
           </p>
           <h4>Referee</h4>
           <p>Antti Heikkinen</p>
-          <span>antti.heikkinen@kesko.fi</span>
+          <span>Ask for contact information</span>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -61,10 +61,13 @@ function Experience() {
           icon={<AtmIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Working at Wärtsilä as software developer trainee
+          Wärtsilä as software developer trainee
           </h3>
           <h3>2.5.2023 --> 30.9.2023</h3>
-
+          <p>Software Development</p>
+          <h4>Referee</h4>
+          <p>Sachie Yoshizumi</p>
+          <span>Ask for contact information</span>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>
