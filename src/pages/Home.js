@@ -9,7 +9,7 @@ function Home() {
         <img src={Picture} alt="Eero" />
         <h3 className=''>Hi, My Name is Eero Kantonen</h3>
         <p>Software Developer</p>
-        <span>Email: eero.kantonen@elisanet.fi</span>
+        <span>Email: eero.kantonen11@gmail.com</span>
         <span>Phone: +358 451 361 822</span>
       </section>
       <div className='prompt'>
@@ -20,7 +20,7 @@ function Home() {
         </div>
         <div className='d-flex flex-column align-items-center ml-4 socialContainer'>
           <span className='hiddenTip mb-3'>Email</span>
-          <SocialIcon className='socialLink' target="_blank" url="mailto: eero.kantonen@elisanet.fi" />
+          <SocialIcon className='socialLink' target="_blank" url="mailto: eero.kantonen11@gmail.com" />
         </div>
         <div className='d-flex flex-column align-items-center socialContainer'>
           <span className='hiddenTip mb-3'>Linkedin</span>
