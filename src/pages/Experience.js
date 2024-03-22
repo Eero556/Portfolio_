@@ -58,7 +58,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<AtmIcon />}
+          icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
           Wärtsilä as software developer trainee
@@ -68,6 +68,16 @@ function Experience() {
           <h4>Referee</h4>
           <p>Sachie Yoshizumi</p>
           <span>Ask for contact information</span>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<AtmIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          Thesis at Valmet
+          </h3>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>
