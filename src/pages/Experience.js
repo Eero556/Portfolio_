@@ -78,6 +78,10 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
           Thesis at Valmet
           </h3>
+          <p>Implement Rek.ai to Valmet.com</p>
+          <h4>Referee</h4>
+          <p>Niko Siltanen</p>
+          <span>Ask for contact information</span>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>
